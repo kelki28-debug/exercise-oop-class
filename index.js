@@ -47,3 +47,6 @@ class BangunRuang extends BangunDatar{
 
 persegi = new BangunRuang(2);
 console.log(persegi.volumeKubus)
+persegiPanjang = new BangunRuang(0,3,4,4);
+console.log(persegiPanjang.volumeBalok)
+
