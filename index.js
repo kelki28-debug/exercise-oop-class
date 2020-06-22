@@ -30,7 +30,7 @@ class BangunDatar{
     luasSegitiga(){
         return this.alas * this.tinggi / 2
     }
-    luaslingkaran(){
+    luasLingkaran(){
         return 3.14 * Math.pow(this.jari, 2)
     }
 }
@@ -49,4 +49,7 @@ persegi = new BangunRuang(2);
 console.log(persegi.volumeKubus)
 persegiPanjang = new BangunRuang(0,3,4,4);
 console.log(persegiPanjang.volumeBalok)
-
+segitiga = new BangunDatar(0,0,0,3,4);
+console.log(segitiga.luasSegitiga())
+lingkaran = new BangunDatar(0,0,0,0,0,14)
+console.log(lingkaran.luasLingkaran())
